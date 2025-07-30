@@ -1,0 +1,8 @@
+[build]
+  # la cartella dove sta il tuo mini-sito R.R.R.
+  base   = "RRR"
+  # rispetto a base, dove vengono pubblicati i file (qui stesso)
+  publish = "."
+
+# (opzionale) se usi funzioni serverless:
+# functions = "netlify/functions"
