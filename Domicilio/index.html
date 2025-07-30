@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>R.R.R. - Prenotazione Assistenza</title>
+  <title>Assistenza a Domicilio - Prenotazione</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Helvetica+Neue:400,700&display=swap">
   <style>
     body { font-family: 'Helvetica Neue', Arial, sans-serif; margin:0; padding:0; background:#f5f5f5; }
@@ -19,10 +19,9 @@
 </head>
 <body>
   <div class="container">
-    <h1>R.R.R. – Ritiriamo, Ripariamo, Riconsegniamo</h1>
-
-    <form name="rrrBooking" method="POST" data-netlify="true" netlify netlify-honeypot="bot-field" id="rrrForm">
-      <input type="hidden" name="form-name" value="rrrBooking">
+    <h1>Assistenza a Domicilio</h1>
+    <form name="domicilioBooking" method="POST" data-netlify="true" netlify netlify-honeypot="bot-field" id="domicilioForm">
+      <input type="hidden" name="form-name" value="domicilioBooking">
       <input type="text" name="bot-field" style="display:none">
 
       <!-- Nome -->
@@ -45,13 +44,13 @@
       <label for="indirizzo">Indirizzo</label>
       <input type="text" id="indirizzo" name="indirizzo" required>
 
-      <!-- Marca e Modello Dispositivo -->
-      <label for="marcaModello">Marca e Modello del Dispositivo</label>
-      <input type="text" id="marcaModello" name="marcaModello" required>
+      <!-- Dispositivo -->
+      <label for="dispositivo">Dispositivo</label>
+      <input type="text" id="dispositivo" name="dispositivo" required>
 
-      <!-- Descrizione del Difetto -->
-      <label for="difetto">Descrizione del Difetto</label>
-      <textarea id="difetto" name="difetto" rows="4" required></textarea>
+      <!-- Descrizione del Problema -->
+      <label for="problema">Descrizione del Problema</label>
+      <textarea id="problema" name="problema" rows="4" required></textarea>
 
       <!-- Accettazione Privacy -->
       <label class="checkbox-label">
