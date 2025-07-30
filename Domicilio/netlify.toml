@@ -1,8 +1,9 @@
 [build]
-  # la cartella dove sta il tuo mini-sito R.R.R.
-  base   = "RRR"
-  # rispetto a base, dove vengono pubblicati i file (qui stesso)
+  # Directory da pubblicare (root della repo, dove si trova domicilio.html)
   publish = "."
 
-# (opzionale) se usi funzioni serverless:
+  # Nessun comando di build, sito statico
+  command = ""
+
+# (Opzionale) Directory per funzioni serverless
 # functions = "netlify/functions"
